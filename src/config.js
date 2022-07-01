@@ -3,4 +3,4 @@ config();
 const configurations={
     port:process.env.PORT || 3000,
 };
-module.exports=configurations //ojo aca solo se trabaja con module.exports=configurations
+module.exports=configurations;
