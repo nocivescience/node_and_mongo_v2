@@ -1,5 +1,6 @@
+const express = require('express');
 const renderIndex = (req, res) => {
-    res.send('hola mundo')
+    res.render('index')
 };
 module.exports = {
     renderIndex,
