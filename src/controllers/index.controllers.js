@@ -1,7 +1,11 @@
 const express = require('express');
-const renderIndex = (req, res) => {
+const renderHome = (req, res) => {
+    res.render('home')
+};
+const renderIntroduce = (req, res) => {
     res.render('index')
 };
 module.exports = {
-    renderIndex,
+    renderHome,
+    renderIntroduce,
 }
