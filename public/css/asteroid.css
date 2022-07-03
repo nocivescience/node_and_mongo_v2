@@ -1,0 +1,22 @@
+#games{
+    width: 70%;
+    height: 400px;
+    border-radius: 10px;
+    background-color: black;
+    opacity: .8;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    background-image: url(/wallpapers/asteroid.jpg);
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
